@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    /* height: 100vh; */
+    color: #F6F6F6;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__link {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__link__link {
+    text-decoration: none;
+    color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    border: 1.5px solid #22D4FD;
+    border-radius: 8px;
+    padding: 1%;
+}
+
+.cabecalho__link__link:hover {
+    background-color: #272727;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 15%;
+
+
+}
+
+.container__container {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.container__marcacao {
+    color: #22D4FD;
+}
+
+.container__titulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.container__paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.container__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.container__link__link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #F6F6F6;
+    padding: 21.5px;
+    border: 2px solid #22D4FD;
+    border-radius: 8px;
+    width: 378px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+
+}
+
+.container__link__link:hover {
+    background-color: #272727;
+
+}
+
+.container__subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.rodape {
+    background-color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    padding: 1.5%;
+    text-align: center;
+}
+
+
+
+
+.container__marcacaoh3 {
+    background-color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: black;
+    padding: 2%;
+    border: 2px solid cyan;
+    border-radius: 18px;
+
+}
